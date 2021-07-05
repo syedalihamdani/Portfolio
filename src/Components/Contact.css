@@ -1,0 +1,85 @@
+.Copage{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 120vh;
+    background-color: #172525;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Comain{
+    /* border: 1px solid blue; */
+    background-color: #172525;
+    width: 99%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-rows: repeat(auto-fit,minmax(600px,1fr));
+
+}
+.Codivphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #172525;
+}
+.Cophoto{
+/* background-color: red; */
+width: clamp(280px,500px,500px);
+display: grid;
+place-items: center;
+}
+.Cophoto1{
+  width: 100%;
+  border-radius: 23px;
+}
+.Coform{
+    
+    background-color:#172525;
+}
+.form{
+    margin: 23px 0;
+    /* border:  2px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+.Coh1{
+    color: white;
+}
+.Coinput{
+    width: 90%;
+    height: 8%;
+    border: none;
+    background-color: #172525;
+    border-bottom: 3px solid yellowgreen;
+    font-size: 23px;
+}
+.textarea{
+    width: 90%;
+    border: none;
+    background-color: #172525;
+    border-bottom: 3px solid yellowgreen;
+    font-size: 23px;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+.Cop{
+    color: white;
+}
+.Cospan{
+    color: yellow;
+}
+.Cobutton{
+    width: 35%;
+    height: 10%;
+    background-color: yellow;
+    font-size: 23px;
+    font-weight: bold;
+}
