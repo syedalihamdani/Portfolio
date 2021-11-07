@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c46c6d75.chunk.css",
+    "main.js": "./static/js/main.ab00c6db.chunk.js",
+    "main.js.map": "./static/js/main.ab00c6db.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.39dbb347.js",
+    "runtime-main.js.map": "./static/js/runtime-main.39dbb347.js.map",
+    "static/css/2.944f1763.chunk.css": "./static/css/2.944f1763.chunk.css",
+    "static/js/2.710252bf.chunk.js": "./static/js/2.710252bf.chunk.js",
+    "static/js/2.710252bf.chunk.js.map": "./static/js/2.710252bf.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.944f1763.chunk.css.map": "./static/css/2.944f1763.chunk.css.map",
+    "static/css/main.c46c6d75.chunk.css.map": "./static/css/main.c46c6d75.chunk.css.map",
+    "static/js/2.710252bf.chunk.js.LICENSE.txt": "./static/js/2.710252bf.chunk.js.LICENSE.txt",
+    "static/media/1.f38c50e3.png": "./static/media/1.f38c50e3.png",
+    "static/media/2.66e57dec.png": "./static/media/2.66e57dec.png",
+    "static/media/3.a021d075.png": "./static/media/3.a021d075.png",
+    "static/media/4.3cdf7e9d.png": "./static/media/4.3cdf7e9d.png",
+    "static/media/5.c8c0b59a.png": "./static/media/5.c8c0b59a.png",
+    "static/media/6.4e58f3e1.png": "./static/media/6.4e58f3e1.png",
+    "static/media/7.c5e26d14.png": "./static/media/7.c5e26d14.png",
+    "static/media/BC.3b9191bb.pdf": "./static/media/BC.3b9191bb.pdf",
+    "static/media/Bcphoto.e56bbbda.png": "./static/media/Bcphoto.e56bbbda.png",
+    "static/media/PY.9a2b19cc.pdf": "./static/media/PY.9a2b19cc.pdf",
+    "static/media/Pyphoto.e91a2162.png": "./static/media/Pyphoto.e91a2162.png",
+    "static/media/cv.ebf76ed1.pdf": "./static/media/cv.ebf76ed1.pdf",
+    "static/media/keepapp.6f75a099.png": "./static/media/keepapp.6f75a099.png",
+    "static/media/me.2ac5e1cc.JPG": "./static/media/me.2ac5e1cc.JPG",
+    "static/media/profile.28f30c6c.jpg": "./static/media/profile.28f30c6c.jpg",
+    "static/media/searchapp.b1666e96.png": "./static/media/searchapp.b1666e96.png",
+    "static/media/slotgame.8f8bc4d8.png": "./static/media/slotgame.8f8bc4d8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39dbb347.js",
+    "static/css/2.944f1763.chunk.css",
+    "static/js/2.710252bf.chunk.js",
+    "static/css/main.c46c6d75.chunk.css",
+    "static/js/main.ab00c6db.chunk.js"
+  ]
+}

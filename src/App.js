@@ -7,11 +7,13 @@
  import Work from './Components/Work';
  import Contact from './Components/Contact';
  import Certifications from './Components/Certifications';
+ import Connect from './Components/Connect';
  
  const App = () => {
    return (
      <>
     <Navbar/>
+     <Connect/>
      <Switch>
        <Route exact path="/" render={Home}/>
        <Route exact path="/about" render={About}/>

@@ -24,7 +24,7 @@ const List=(props)=>{
   >
   <li style={listStyle}><NavLink exact activeclassName="active" className="unactive" to="/"> Home</NavLink></li>
   <li style={listStyle}><NavLink exact activeClassName="active" className="unactive" to="/about">About Me</NavLink></li>
-  <li style={listStyle}><NavLink exact activeClassName="active" className="unactive" to="/work">Work</NavLink></li>
+  <li style={listStyle}><NavLink exact activeClassName="active" className="unactive" to="/work">Portfolio</NavLink></li>
   <li style={listStyle}><NavLink exact activeClassName="active" className="unactive" to="/certification">Certifications</NavLink></li>
   <li style={listStyle}><NavLink exact activeClassName="active" className="unactive" to="/contact">Contact Me</NavLink> </li>
   </ul>
@@ -44,7 +44,7 @@ const Mobilelist=()=>{
       fontSize:"30px"
     }}
      onClick={()=>{
-      setactive(!active)
+      setactive(!active);
     }
      }
       >

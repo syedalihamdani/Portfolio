@@ -159,8 +159,13 @@ const About = () => {
         <p className="bold">About Me</p>
       </div>
       <p>Hi!
-   I am a self-taught Front End React Developer. Currently, I am learning BlockChain,
-learning Smart contracts, Tokens, and Decentralized Apps. I have done my Bachelor Degree in Civil Engineering then I start to learn software technologies.
+I am a Certified Blockchain Developer.Currently doing freelancing.
+I make make ERC20 fungible , ERC721 non_fungible , ERC777 , ERC1155 and all kinds of Dapps(Decentralized Apps) on Ethereum ,
+ Binance Smart Chain and other blockchain networks.
+ I look forward to make my career in blockchain industry.
+  I have done my Bachelor Degree in Civil Engineering then 
+  I start to learn Blockchain technologies. I am fluent in many languages like English,
+   Chinese, and Urdu.
       </p>
     </div>
     <div className="resume_item resume_work">
@@ -171,13 +176,17 @@ learning Smart contracts, Tokens, and Decentralized Apps. I have done my Bachelo
       <li>
           <div className="date">(&nbsp;Currently&nbsp;) Freelancer</div> 
           <div className="info">
-            <p className="semi-bold">ON Fiverr</p> 
+            {/* <p className="semi-bold">ON Fiverr</p>  */}
             <p>
-            Currently, working on Fiverr as FreeLancer. I am Front End React Developer.
+            I am doing freelancing. I have provided the services as a Python
+	developer, Front end developer, React developer, Solidity developer and as
+	a Blockchain developer. I have build tokens including Fungible tokens ,non
+	fungible tokens and Dapps, I have also build frontend websites and web apps
+	using React.
             </p>
           </div>
         </li>
-        <li>
+        {/* <li>
           <div className="date">(&nbsp;2020, aug05 –2021,june 30&nbsp;)Site Engineer</div> 
           <div className="info">
             <p className="semi-bold">CH.AMAN ULLAH BUILDERS & DEVELOPER</p> 
@@ -187,7 +196,7 @@ learning Smart contracts, Tokens, and Decentralized Apps. I have done my Bachelo
                 Finding solution of different problems and meet the deadline. Fill the quotations
             </p>
           </div>
-        </li>
+        </li> */}
         <li>
           <div className="date">(&nbsp;2019, aug05 –2020,june 30&nbsp;)Project Engineer</div> 
           <div className="info">

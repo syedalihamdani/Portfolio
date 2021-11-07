@@ -56,50 +56,39 @@ export default function App() {
   </Swiper>
   <div className="Wshow">
     <div className="Wp">
-      <img src={one} className="Wimg" alt="Photos"/>
-  <a href="http://real-estate1.surge.sh/" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
-      <img src={two} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
-      <img src={three} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
       <img src={four} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
+  <a href="http://sah2.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to ERC20 TOKEN MANGER</button></a>
     </div>
     <div className="Wp">
       <img src={five} className="Wimg" alt="Photos"/>
-  <a href="http://consulting1.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
+  <a href="http://NFT721.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to NFT MANGER</button></a>
     </div>
     <div className="Wp">
       <img src={six} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
+  <a href="http://election.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to Election Dapp</button></a>
     </div>
     <div className="Wp">
       <img src={seven} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
-      <img src={keep} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
-      <img src={search} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
-    </div>
-    <div className="Wp">
-      <img src={slot} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
+  <a href="http://expense___tracker.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to Expense Tracker Dapp</button></a>
     </div>
     <div className="Wp">
       <img src={todo} className="Wimg" alt="Photos"/>
-  <a href="" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to the site</button></a>
+  <a href="http://todolist__.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to todo list Dapp</button></a>
     </div>
   </div>
+  <h1 >React websites</h1>
+    <div className="Wp">
+      <img src={one} className="Wimg" alt="Photos"/>
+  <a href="http://realestate2.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to react site</button></a>
+    </div>
+    <div className="Wp">
+      <img src={three} className="Wimg" alt="Photos"/>
+  <a href="http://shoes2.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to react site</button></a>
+    </div>
+    <div className="Wp">
+      <img src={two} className="Wimg" alt="Photos"/>
+  <a href="http://consulting2.surge.sh" target="_balnk" rel="noopener noreferrer"><button className="Wbtn">Visit to react site</button></a>
+    </div>
 </div>
     </>
   )

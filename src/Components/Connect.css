@@ -1,0 +1,23 @@
+.navbar{
+     /* border: 2px solid red; */
+     width: 100%;
+     background-color: #172525;
+     color: white;
+   }
+   .upper{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   .btn{
+     background-color: green;
+     width: 150px;
+     height: 30px;
+     color: white;
+   }
+   .lower{
+     display: flex;
+     justify-content: flex-start;
+     font-size: 12px;
+   }
+   

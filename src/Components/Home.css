@@ -20,7 +20,9 @@ place-self: center;
     align-items: center;
     justify-content: space-around;
 }
-
+.Coh1{
+    color: white;
+}
 @media only screen and (max-width: 800px) {
     .Himage{
         width: 280px;
@@ -49,6 +51,6 @@ place-self: center;
 
 }
 .Hheading{
-    font-size: 2rem;
+    font-size: 1.4rem;
    
 }
