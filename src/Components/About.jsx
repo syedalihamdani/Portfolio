@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from './Photos/profile.jpg';
-import cv from './Photos/cv.pdf';
+import cv from './Photos/cv.png';
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
       <div className="resume_item resume_info">
         <div className="title">
           <p className="bold">Hafiz Sayyed Ali Hamdani</p>
-          <p className="regular">Front End React Developer</p>
+          <p className="regular">Full Stack Blockchain Developer</p>
         </div>
         <ul>
           <li>
@@ -109,6 +109,15 @@ const About = () => {
               Solidity
             </div>
             <div className="skill_progress">
+              <span style={{width: '82%'}} />
+            </div>
+            <div className="skill_per">82%</div>
+          </li>
+          <li>
+            <div className="skill_name">
+              Nodejs
+            </div>
+            <div className="skill_progress">
               <span style={{width: '70%'}} />
             </div>
             <div className="skill_per">70%</div>
@@ -159,13 +168,12 @@ const About = () => {
         <p className="bold">About Me</p>
       </div>
       <p>Hi!
-I am a Certified Blockchain Developer.Currently doing freelancing.
-I make make ERC20 fungible , ERC721 non_fungible , ERC777 , ERC1155 and all kinds of Dapps(Decentralized Apps) on Ethereum ,
+I am a Certified Blockchain Developer.
+I make make ERC20 fungible , ERC721 non_fungible, ERC1155 and all kinds of Dapps(Decentralized Apps) on Ethereum ,
  Binance Smart Chain and other blockchain networks.
  I look forward to make my career in blockchain industry.
   I have done my Bachelor Degree in Civil Engineering then 
-  I start to learn Blockchain technologies. I am fluent in many languages like English,
-   Chinese, and Urdu.
+  I start to learn Blockchain technologies. I have learn block chain from the PIAIC.
       </p>
     </div>
     <div className="resume_item resume_work">
@@ -178,48 +186,36 @@ I make make ERC20 fungible , ERC721 non_fungible , ERC777 , ERC1155 and all kind
           <div className="info">
             {/* <p className="semi-bold">ON Fiverr</p>  */}
             <p>
-            I am doing freelancing. I have provided the services as a Python
-	developer, Front end developer, React developer, Solidity developer and as
-	a Blockchain developer. I have build tokens including Fungible tokens ,non
-	fungible tokens and Dapps, I have also build frontend websites and web apps
-	using React.
-            </p>
-          </div>
-        </li>
-        {/* <li>
-          <div className="date">(&nbsp;2020, aug05 –2021,june 30&nbsp;)Site Engineer</div> 
-          <div className="info">
-            <p className="semi-bold">CH.AMAN ULLAH BUILDERS & DEVELOPER</p> 
-            <p>
-                Handling the project & checking the everyone’s work. Manage HR Activities.<br/>
-                Plane all the construction activities of project  & Fill the quotations<br/>
-                Finding solution of different problems and meet the deadline. Fill the quotations
-            </p>
-          </div>
-        </li> */}
-        <li>
-          <div className="date">(&nbsp;2019, aug05 –2020,june 30&nbsp;)Project Engineer</div> 
-          <div className="info">
-            <p className="semi-bold">CH.AMAN ULLAH BUILDERS & DEVELOPER</p> 
-            <p>
-                Handling the project & checking the everyone’s work. Manage HR Activities.<br/>
-                Plane all the construction activities of project  & Fill the quotations.<br/>
-                Finding solution of different problems and meet the deadline. Fill the quotations
+            I am doing freelancing. I have provided the services as a full stack 
+            Blockchain developer. I have build tokens including Fungible tokens,
+            non fungible tokens and Dapps, I have also build frontend websites
+             and web apps	using React.
             </p>
           </div>
         </li>
         <li>
-          <div className="date">(&nbsp;4 feb,2019 -30 june,2019&nbsp;)Site Engineer</div> 
+          <div className="date">(&nbsp;2021, Dec 01 –2022,Feb 28&nbsp;)Blockchain Developer</div> 
           <div className="info">
-            <p className="semi-bold">M/S SYED SAJJAD HAYDER BUKHARI</p> 
-            <p>Plane all the construction activities of project  & Fill the quotations.<br/>
-            Finding solution of different problems and meet the deadline. Fill the quotations.
+            <p className="semi-bold">Ideofuzion (Pvt) Ltd.</p> 
+            <p>
+               I have done job in ideofuzion as Blockchain Developer.During my job
+              ,i have tested the smart contracts work on the NFT projects.I have
+              also lounch the 2 NFT projects.
             </p>
           </div>
         </li>
-       
-     
-      
+        <li>
+          <div className="date">(&nbsp;2021, jul –2021,november 30&nbsp;)Freelancer</div> 
+          <div className="info">
+            {/* <p className="semi-bold">CH.AMAN ULLAH BUILDERS & DEVELOPER</p>  */}
+            <p>
+            I am have freelancing. I have provided the services as a full stack 
+            Blockchain developer. I have build tokens including Fungible tokens,
+            non fungible tokens and Dapps, I have also build frontend websites
+            and web apps	using React.
+            </p>
+          </div>
+        </li>
       </ul>
     </div>
     <div className="resume_item resume_education">
@@ -228,7 +224,7 @@ I make make ERC20 fungible , ERC721 non_fungible , ERC777 , ERC1155 and all kind
       </div>
       <ul>
         <li>
-          <div className="date">(Currently)BSC Block Chain Technologies</div> 
+          <div className="date">(Currently)Block Chain Technologies</div> 
           <div className="info">
             <p className="semi-bold">Presidential Initiative for Artificial Intelligence & Computing (PIAIC), Pakistan</p> 
             <p>BlockChian is the emerging technology.I am learning how to make Smart Contracts, Tokens and Decentralized Apps. </p>

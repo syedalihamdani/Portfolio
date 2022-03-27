@@ -10,7 +10,7 @@ const Home = () => {
         <div className="Hpage">
             <div className="Himage">
                 <div className="HIimage">
-                <img src={Image} alt="Ali's Photo" className="Himg" title="Ali"/>
+                <img src={Image} alt="Myown" className="Himg" title="Ali"/>
                 
                 </div>   
     <div className="Hicons">

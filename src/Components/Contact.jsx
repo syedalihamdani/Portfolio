@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import "./Contact.css";
 import contact from './Photos/me.JPG';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -6,54 +6,54 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Contact = () => {
-    const [note,setnote]=useState({
-        fullname:'',
-        email:'',
-        message:'',
-        condition:'',
-    })
-    const setvalues=(event)=>{
-// console.log(event.target.value)
-// console.log(event.target.name)
-const value=event.target.value;
-const name=event.target.name;
-setnote((oldvalue)=>{
-    if(name==='fullname'){
-        return{
-            fullname:value,
-            email:oldvalue.email,
-            message:oldvalue.message,
-            condition:oldvalue.condition,
-        }
-    }else if(name==='email'){
-        return{
-            fullname:oldvalue.fullname,
-            email:value,
-            message:oldvalue.message,
-            condition:oldvalue.condition,
-        }
-    }else if(name==='message'){
-        return{
-            fullname:oldvalue.fullname,
-            email:oldvalue.email,
-            message:value,
-            condition:oldvalue.condition,
-        }
-    }else if(name==='condition'){
-        return{
-            fullname:oldvalue.fullname,
-            email:oldvalue.email,
-            message:oldvalue.message,
-            condition:value,
-        }
-    }
-})
-    }
-    const onsubmit=(event)=>{
-        event.preventDefault();
-        alert('Form Submitted')
-        console.log(note);
-    }
+    // const [note,setnote]=useState({
+    //     fullname:'',
+    //     email:'',
+    //     message:'',
+    //     condition:'',
+    // })
+//     const setvalues=(event)=>{
+// // console.log(event.target.value)
+// // console.log(event.target.name)
+// const value=event.target.value;
+// const name=event.target.name;
+// setnote((oldvalue)=>{
+//     if(name==='fullname'){
+//         return{
+//             fullname:value,
+//             email:oldvalue.email,
+//             message:oldvalue.message,
+//             condition:oldvalue.condition,
+//         }
+//     }else if(name==='email'){
+//         return{
+//             fullname:oldvalue.fullname,
+//             email:value,
+//             message:oldvalue.message,
+//             condition:oldvalue.condition,
+//         }
+//     }else if(name==='message'){
+//         return{
+//             fullname:oldvalue.fullname,
+//             email:oldvalue.email,
+//             message:value,
+//             condition:oldvalue.condition,
+//         }
+//     }else if(name==='condition'){
+//         return{
+//             fullname:oldvalue.fullname,
+//             email:oldvalue.email,
+//             message:oldvalue.message,
+//             condition:value,
+//         }
+//     }
+// })
+    // }
+    // const onsubmit=(event)=>{
+    //     event.preventDefault();
+    //     alert('Form Submitted')
+    //     console.log(note);
+    // }
     return (
         <>
         <div className='Copage'>
